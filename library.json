@@ -1,0 +1,11 @@
+{
+    "name": "StringStream",
+    "version": "1.0.0",
+    "keywords": "string, stream",
+    "description": "Arduino Library Wrapping String in an Arduino Stream",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/0xTJ/StringStream.git"
+    }
+}
