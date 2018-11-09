@@ -11,7 +11,7 @@ public:
     int read() { return EOF; }
     int peek() { return EOF; }
     void flush() {}
-    StringStream& operator=(const String& other) { buffer = other; return *this; }
+    StringStream& operator=(const String& other) { buff = other; return *this; }
     String str() { return buff; }
 
 private:
